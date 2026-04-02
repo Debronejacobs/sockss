@@ -6,6 +6,8 @@ compatibility_date = "2026-04-02"
 binding = "hk"
 id = "abf7c4d853074524b518a98ef91edc63"
 [observability]
-[observability.logs]
 enabled = true
+[observability.logs]
 invocation_logs = true
+head_sampling_rate = 1
+
