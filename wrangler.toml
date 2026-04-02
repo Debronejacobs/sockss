@@ -5,3 +5,7 @@ compatibility_date = "2026-04-02"
 [[kv_namespaces]]
 binding = "hk"
 id = "abf7c4d853074524b518a98ef91edc63"
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
